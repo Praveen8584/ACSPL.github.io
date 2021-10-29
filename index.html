@@ -1,0 +1,842 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Responsive Navbar</title>
+  </head>
+  <body data-spy="scroll" data-target="#navbarNav" data-offset="70">
+
+    
+
+    <!---<div  class="loader">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+
+    </div--->
+    
+   <section class="nav_section fixed-top">
+
+      <div class="loader_bg">
+      <div class="loader"></div>
+    </div>
+
+      
+      <nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#home"><span>ACSPL</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="fa fa-bars"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active ml-4" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ml-4" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ml-4" href="#team">Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ml-4" href="#blog">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ml-4" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    </section>
+
+    <section id="home" class="banner cover-bg">
+      <div class="container h-100">
+        <div class="row align-items-center h-100">
+          <div class="col-12 caption text-center">
+            <h4 class="mt-20 mb-20">Hello, Welcome To...</h4>
+            <h2 class="mt-20">APARVA CROP SCIENCE PRIVATE LIMITED</h2>
+            <!---<p class="mt-20">Aparva Crop Science Private Limited is a Private incorpated on 6 April 2016.<br>It is classified as Non-Govt company and is registered at Registrar of companies,Bangalore.<br>Its authorised share capital is Rs 1,000,000 and its paid up capital is Rs.100,000. It is inolved in business activities n.e.c. <a href="#about">read more...</a></p>--->
+
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/slider1.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+        <!---<h5>First slide label</h5>--->
+        <!---<p>Some representative placeholder content for the first slide.</p>--->
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/slider2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <!---<h5>Second slide label</h5>--->
+        <!---<p>Some representative placeholder content for the second slide.</p>--->
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/slider3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <!---<h5>Third slide label</h5>--->
+        <!---<p>Some representative placeholder content for the third slide.</p>--->
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/slider5.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <!---<h5>Third slide label</h5>--->
+        <!---<p>Some representative placeholder content for the third slide.</p>--->
+      </div>
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+              
+              
+
+         
+
+            <a href="https://api.whatsapp.com/send?
+         phone=9538649878
+         &text=Hola%information%."
+       class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
+          <button onclick="topFunction()" id="myBtns" title="Go to top">Top</button>
+
+          <div class="social_icon text-center mt-20">
+              <a href="#"><span><i class="fa fa-facebook"></i></span></a>
+              <a href="#"><span><i class="fa fa-instagram"></i></span></a>
+              <a href="#"><span><i class="fa fa-twitter"></i></span></a>
+              <a href="#"><span><i class="fa fa-linkedin"></i></span></a>
+              <a href="#"><span><i class="fa fa-youtube-play"></i></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about section_padding pb-0">
+      <div class="container">
+        <div class="row align align-items-center">
+          <div class="col-lg-12 section_title text-center">
+            <p>About Our Company</p>
+            <h3>About Us</h3>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="part_photo">
+              <img class="img-fluid" src="images/about.jpg">
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="part_text">
+              <h4 class="mb-30">Hello</h4>
+              <p class="pb-35">Aparva Crop Science Private Limited is a Private incorpated on 6 April 2016.It is classified as Non-Govt company and is registered at Registrar of companies,Bangalore.Its authorised share capital is Rs 1,000,000 and its paid up capital is Rs.100,000. It is inolved in business activities n.e.c.<br><br>
+              Aparva Crop Science Private Limited Annual General Meeting(AGM) was last held on 31 December2020 and as per records from Ministry Of Corporate Affairs(MCA),its balance sheet was last filed on 31 March 2020.<br><br>
+              Director of Aparva Crop Science Private Limited are <i>Mallikarjun Somashekhar Hiremath</i>  and <i>Murughesh Shreeshail Honawadmath</i>.Aparva Crop Science Private Limited's Corporate Indentification Number is(CIN) U74999KA2016PTC092299 & Its Registration Number is 92299.Current status of Aparva Crop Science Private Limited is active.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="team" class="our-team">
+      <div class="container">
+        <div class="row align align-items-center">
+          <div class="col-lg-12 section_title text-center">
+            <p>Meet The Team</p>
+            <h3>Our Team</h3>
+          </div>
+
+        <div class="row">
+          
+          <div class="col-lg-6 col-md-6">
+            <div class="members text-center">
+              <div class="image-box">
+                <img class="img-fluid" src="images/md.png">
+              </div>
+              <div class="details">
+                <h4>Mallikarjun H.</h4>
+                <span>Managing Director</span>
+                <div class="social">
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6">
+            <div class="members text-center">
+              <div class="image-box">
+                <img class="img-fluid" src="images/md.png">
+              </div>
+              <div class="details">
+                <h4>Murughesh H.</h4>
+                <span>Managing Director</span>
+                <div class="social">
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </section>
+
+
+
+    <section id="blog" class="section_padding blog">
+      <div class="container">
+        <div class="row">
+          <div class="section_title text-center">
+            <p>Varieties Of Product</p>
+            <h3>Our Products</h3>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+        <div class="blog-item">
+          <div class="part-img">
+            <img class="img-fluid" src="images/blog2.jpg">
+            <div class="post-info-category">
+              <!---<a href="#">See Info</a>--->
+
+              <button id="myBtn">Product Information</button>
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+  
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="part_text">
+              <h4>Maize Hybrid-Aparva 77</h4>
+              <ul>
+                <li>Medium tall non lodging plants</li>
+                <li>Maturity 100-110 days</li>
+                <li>Medium long cobs</li>
+                <li>Orange Yellow Grains</li>
+                <li>Excellent tip filling</li>
+                <li>High yielding hybrid</li>
+                <li>Tolerant to Blights</li>
+              </ul>
+            </div>
+          </div>
+  </div>
+</div>
+
+            </div>
+          </div>
+          <div class="content">
+            <div class="title">
+              <h4><a href="#">Maize Hybrid-Aparva 77</a></h4>
+              <div class="meta">
+                <!---<span>12 July 2020</span>--->
+              </div>
+            </div>
+            <!---<p>Lorem Ipsum dolor sit amet consecteture elit mecenas in pulvinar neque</p>--->
+            <div class="author">
+              <div class="author-img">
+                <!---<img class="img-fluid" src="images/work3.jpg">--->
+              </div>
+              <div class="text">
+                <!---<h5><a href="#">By John Smith</a></h5>--->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-12">
+        <div class="blog-item">
+          <div class="part-img">
+            <img class="img-fluid" src="images/blog2.jpg">
+            <div class="post-info-category">
+              <!---<a href="#">See Info</a>--->
+
+              <button id="myBtn2">Product Information</button>
+<div id="myModal2" class="modal2">
+  <div class="modal-content2">
+    <span class="close2">&times;</span>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="part_text">
+              <h4>Maize Hybrid-Aparva 555</h4>
+              <ul>
+                <li>Medium tall non lodging plants</li>
+                <li>Long duration Hybrid</li>
+                <li>Maturity 120-125 days</li>
+                <li>Long big size cobs</li>
+                <li>Orange Yellow Grains</li>
+                <li>Excellent tip filling</li>
+                <li>High yielding hybrid</li>
+                <li>Tolerant to Blights</li>
+              </ul>
+            </div>
+          </div>
+  </div>
+</div>
+
+
+            </div>
+          </div>
+          <div class="content">
+            <div class="title">
+              <h4><a href="#">Maize Hybrid-Aparva 555</a></h4>
+              <div class="meta">
+                <!---<span>12 July 2020</span>--->
+              </div>
+            </div>
+            <!---<p>Lorem Ipsum dolor sit amet consecteture elit mecenas in pulvinar neque</p>--->
+            <div class="author">
+              <div class="author-img">
+                <!---<img class="img-fluid" src="images/work3.jpg">--->
+              </div>
+              <div class="text">
+                <!---<h5><a href="#">By John Smith</a></h5>--->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-12">
+        <div class="blog-item">
+          <div class="part-img">
+            <img class="img-fluid" src="images/blog3.jpg">
+            <div class="post-info-category">
+              <!---<a href="#">See Info</a>--->
+
+
+              <button id="myBtn3">Product Information</button>
+<div id="myModal3" class="modal3">
+  <div class="modal-content3">
+    <span class="close3">&times;</span>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="part_text">
+              <h4>Maize Hybrid-Aparva Gold</h4>
+              <ul>
+                <li>Medium tall non lodging plants</li>
+                <li>Long duration Hybrid</li>
+                <li>Maturity 120-125 days</li>
+                <li>Long big size cobs</li>
+                <li>Orange Yellow Grains</li>
+                <li>Excellent tip filling</li>
+                <li>High yielding hybrid</li>
+                <li>Tolerant to Blights</li>
+              </ul>
+            </div>
+          </div>
+  </div>
+</div>
+
+            </div>
+          </div>
+          <div class="content">
+            <div class="title">
+              <h4><a href="#">Maize Hybrid-Aparva Gold</a></h4>
+              <div class="meta">
+                <!---<span>12 July 2020</span>--->
+              </div>
+            </div>
+            <!---<p>Lorem Ipsum dolor sit amet consecteture elit mecenas in pulvinar neque</p>--->
+            <div class="author">
+              <div class="author-img">
+                <!---<img class="img-fluid" src="images/work3.jpg">--->
+              </div>
+              <div class="text">
+                <!---<h5><a href="#">By John Smith</a></h5>--->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-12">
+        <div class="blog-item">
+          <div class="part-img">
+            <img class="img-fluid" src="images/blog4.jpg">
+            <div class="post-info-category">
+              <!---<a href="#">See Info</a>--->
+
+
+              <button id="myBtn4">Product Information</button>
+<div id="myModal4" class="modal4">
+  <div class="modal-content4">
+    <span class="close4">&times;</span>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="part_text">
+              <h4>Maize Hybrid-Aparva 444</h4>
+              <ul>
+                <li>Medium tall non lodging plants</li>
+                <li>Long duration Hybrid</li>
+                <li>Maturity 120-125 days</li>
+                <li>Long big size cobs</li>
+                <li>Orange Yellow Grains</li>
+                <li>Excellent tip filling</li>
+                <li>High yielding hybrid</li>
+                <li>Tolerant to Blights</li>
+              </ul>
+            </div>
+          </div>
+  </div>
+</div>
+
+            </div>
+          </div>
+          <div class="content">
+            <div class="title">
+              <h4><a href="#">Maize Hybrid-Aparva 444</a></h4>
+              <div class="meta">
+                <!---<span>12 July 2020</span>--->
+              </div>
+            </div>
+            <!---<p>Lorem Ipsum dolor sit amet consecteture elit mecenas in pulvinar neque</p>--->
+            <div class="author">
+              <div class="author-img">
+                <!---<img class="img-fluid" src="images/work3.jpg">--->
+              </div>
+              <div class="text">
+                <!---<h5><a href="#">By John Smith</a></h5>--->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="contact" class="contact section_padding cover-bg">
+  <div class="container">
+    <div class="row">
+      <div class="section_title text-center">
+        <p>GET IN TOUCH</p>
+        <h3>Contact</h3>
+      </div>
+      <div class="col-md-12">
+        <div class="part-info">
+          <div class="row">
+            <div class="col-md-4 xs-md-30">
+              <div class="info-block text-center">
+                <div class="icon">
+                  <i class="fa fa-map-marker"></i>
+                </div>
+                <h5>Our Location</h5>
+                <p>No 51/2, Third Floor, C.A.Road 8th Cross,Malleshwaram Bangalore Bangalore KA 560003 IN.</p>
+              </div>
+            </div>
+            <div class="col-md-4 xs-md-30">
+              <div class="info-block text-center">
+                <div class="icon">
+                  <i class="fa fa-mobile"></i>
+                </div>
+                <h5>Phone Number:</h5>
+                <p>(+91) 953 864 9878</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="info-block text-center">
+                <div class="icon">
+                  <i class="fa fa-envelope"></i>
+                </div>
+                <h5>Email Address:</h5>
+                <p>aparvaseeds@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="contact-form">
+          <form action="javascript:sendmail()" method="post">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" class="form-control" name="Name" id="Name" placeholder="Name" required="">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="email" class="form-control" name="Email" id="Email" placeholder="Email"
+                  required="">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" class="form-control" name="Number" id="Number" placeholder="Number"
+                  required="">
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="form-group">
+                  <input type="text" class="form-control" name="Subject" id="Subject" placeholder="Subject"
+                  required="">
+                </div>
+              </div>
+              <div class="col-md-12">
+                <textarea name="Message" class="form-control" id="Message" placeholder="Message"
+                required=""></textarea>
+              </div>
+              <div class="col-md-12">
+                <button type="submit" class="btn btn-contact">Send Message</button>
+                <!---<input type="button" class="btn btn-contact" onclick="sendmail();"  value="Send Message">--->
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="section_title text-center">
+        <p>Our Testimonials</p>
+        <h3>Testimonials</h3>
+      </div>
+
+      <div class="testim" id="testim">
+        <div class="wrap">
+
+            <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+            <span id="left-arrow" class="arrow left fa fa-chevron-left"></span>
+
+            <ul class="dots" id="testim-dots">
+                <li class="dot active"></li>
+                <li class="dot"></li>
+                
+            </ul>
+
+            <div class="cont" id="testim-content">
+
+                <div class="active">
+                    <div class="img"><img src="images/md.png"></div>
+                    <h2>PRAVEEN KAMBALE <p><i>UI Developer</i></p></h2>
+                    <p>Thanks To Aparva Crop Science Private Limited...</p>
+                </div>
+                
+                <div>
+                    <div class="img"><img src="images/md.png"></div>
+                    <h2>SHASHIKUMAR H.</h2>
+
+                    <p> Many Thanks To Aparva Crop Science Private Limited...</p>
+                </div>
+                
+                
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<footer class="footer text-center">
+  <div class="container">
+    <div class="row">
+      <div class="logo">
+        <a class="navbar-brand custom_logo" href="#footer"><span>Aparva Crop Science Private Limited</span></a>
+      </div>
+      <div class="social_icon text-center">
+        <a href="#"><span><i class="fa fa-facebook"></i></span></a>
+        <a href="#"><span><i class="fa fa-instagram"></i></span></a>
+        <a href="#"><span><i class="fa fa-twitter"></i></span></a>
+        <a href="#"><span><i class="fa fa-linkedin"></i></span></a>
+        <a href="#"><span><i class="fa fa-youtube-play"></i></span></a>
+
+      </div>
+      <div class="copy">
+        <h6>&copy; 2021 Designed By AddCode Tech</h6>
+      </div>
+
+<p id="demo"></p>
+
+    </div>
+  </div>
+</footer>
+    
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <!---<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>--->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+
+    <script>  
+
+     function sendmail(){
+
+      var name = $('#Name').val();
+      var email = $('#Email').val();
+      var number = $('#Number').val();
+      var subject = $('#Subject').val();
+      var message = $('#Message').val();
+
+
+      var Body='<p><b>NAME:</b></p> '+name+'<br><br><p><b>EMAIL:</b></p> '+email+'<br><br><p><b>NUMBER:</p></b> '+number+ '<br><br><p><b>SUBJECT:</p></b> '+subject+'<br><br><p><b>MESSAGE:</p></b> '+message;
+      
+
+      Email.send({
+    SecureToken: "fbf31702-bb7f-4a4e-9c1c-4ccf17ee777f",
+    To : 'pkphp02@gmail.com',
+    From : "akphp02@gmail.com",
+    Subject : "New Mail On Conact Form From:"+name,
+    Body : Body
+}).then(
+        message =>{
+          //console.log (message);
+          if(message=='OK'){
+          alert('Your Message has been send. Thank you for Contacting...');
+          }
+          else{
+            console.error (message);
+            alert('There is error at sending message. ')
+
+          }
+
+        }
+      );
+     }
+
+    </script>
+
+
+    <script>
+const d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script>
+
+
+    <script>
+      
+      setTimeout(function(){
+        $('.loader_bg').fadeToggle();
+      },1500);
+
+    </script>
+
+<script>
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+span.onclick = function() {
+  modal.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+<script>
+var modal2 = document.getElementById("myModal2");
+var btn2 = document.getElementById("myBtn2");
+var span = document.getElementsByClassName("close2")[0];
+btn2.onclick = function() {
+  modal2.style.display = "block";
+}
+span.onclick = function() {
+  modal2.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == modal2) {
+    modal2.style.display = "none";
+  }
+}
+</script>
+
+
+<script>
+var modal3 = document.getElementById("myModal3");
+var btn3 = document.getElementById("myBtn3");
+var span = document.getElementsByClassName("close3")[0];
+btn3.onclick = function() {
+  modal3.style.display = "block";
+}
+span.onclick = function() {
+  modal3.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == modal3) {
+    modal3.style.display = "none";
+  }
+}
+</script>
+
+
+<script>
+var modal4 = document.getElementById("myModal4");
+var btn4 = document.getElementById("myBtn4");
+var span = document.getElementsByClassName("close4")[0];
+btn4.onclick = function() {
+  modal4.style.display = "block";
+}
+span.onclick = function() {
+  modal4.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == modal4) {
+    modal4.style.display = "none";
+  }
+}
+</script>
+    
+
+    <script>
+      //Get the button:
+mybuttons = document.getElementById("myBtns");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybuttons.style.display = "block";
+  } else {
+    mybuttons.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+
+
+<script>
+
+  $(window).scroll(function(){
+  var scroll = $(window).scrollTop();
+
+  if (scroll >= 10) {
+    $(" .navbar").addClass("nav-scroll");
+  } else {
+
+    $(" .navbar").removeClass("nav-scroll");
+  }
+});
+
+</script>
+
+
+<script>
+
+'use strict'
+var testim = document.getElementById("testim"),
+    testimDots = Array.prototype.slice.call(document.getElementById("testim-dots").children),
+    testimContent = Array.prototype.slice.call(document.getElementById("testim-content").children),
+    testimleftArrow = document.getElementById("left-arrow"),
+    testimRightArrow = document.getElementById("right-arrow"),
+    testimSpeed = 4500,
+    currentSlide = 0,
+    currentActive = 0,
+    testimTimer
+    ;
+// coding with nick
+window.onload = function () {
+
+    // Testim Script
+    function playSlide(slide) {
+        for (var k = 0; k < testimDots.length; k++) {
+            testimContent[k].classList.remove("active");
+            testimContent[k].classList.remove("inactive");
+            testimDots[k].classList.remove("active");
+        }
+        if (slide < 0) {
+            slide = currentSlide = testimContent.length - 1;
+        }
+        if (slide > testimContent.length - 1) {
+            slide = currentSlide = 0;
+        }
+        if (currentActive != currentSlide) {
+            testimContent[currentActive].classList.add("inactive");
+        }
+        testimContent[slide].classList.add("active");
+        testimDots[slide].classList.add("active");
+
+        currentActive = currentSlide;
+
+        clearTimeout(testimTimer);
+        testimTimer = setTimeout(function () {
+            playSlide(currentSlide += 1);
+        }, testimSpeed)
+    }
+// coding with nick
+    testimleftArrow.addEventListener("click", function () {
+        playSlide(currentSlide -= 1);
+    })
+    testimRightArrow.addEventListener("click", function () {
+        playSlide(currentSlide += 1);
+    })
+
+    for (var l = 0; l < testimDots.length; l++) {
+        testimDots[l].addEventListener("click", function () {
+            playSlide(currentSlide = testimDots.indexOf(this));
+        })
+    }
+    playSlide(currentSlide);
+
+}
+</script>
+
+  </body>
+</html>
